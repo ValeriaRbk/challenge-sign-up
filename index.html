@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="root-info">
+            <h1 class="heading">Learn to code by watching others</h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+            </p>
+        </div>
+
+        <div class="root-form">
+            <div class="try-box btn">
+                <p class="try-button"> <strong>Try it free 7 days </strong>then $20/mo. thereafter</p>
+            </div>
+
+            <div class="div-form">
+                <form action="" method="get" class="form">
+                    <div class="form-input">
+                        <input type="text" name="firstname" class="firstname" placeholder="First Name">
+                        <img src="./images/icon-error.svg" alt="" class="firstname">
+                        <label class="firstname">First Name cannot be empty</label>
+                    </div>
+    
+                    <div class="form-input">
+                        <input type="text" name="lastname" class="lastname" placeholder="Last Name" class="">
+                        <img src="./images/icon-error.svg" alt="" class="lastname">
+                        <label class="lastname">Last Name cannot be empty</label>
+                    </div>
+    
+                    <div class="form-input">
+                        <input type="email" name="email" class="email" placeholder="Email Address" minlength="6">
+                        <img src="./images/icon-error.svg" alt="" class="email">
+                        <label class="email">Looks like this is not an email  </label>
+                    </div>
+    
+                    <div class="form-input">
+                        <input type="password" name="password" class="password" placeholder="Password">
+                        <img src="./images/icon-error.svg" alt="" class="password">
+                        <label class="password">Password cannot be empty</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-button btn">Claim your free trial</button>
+                </form>
+                
+                <p class="terms">
+                    <small> By clicking the button, you are agreeing to our 
+                        <a href="#">Terms and Services</a></small>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body> 
+</html>
